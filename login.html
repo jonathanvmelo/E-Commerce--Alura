@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Comerce</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="./Styles/Login/login-reset.css">
+    <link rel="stylesheet" href="./Styles/Login/login-footer.css">
+    <link rel="stylesheet" href="./Styles/Login/login-main.css">
+    <link rel="stylesheet" href="./Styles/Login/login-header.css">
+</head>
+
+<body>
+    <header>
+        <section class="header">
+            <div class="header__logo">
+                <img src="./Images/control.svg" alt="Logo">
+                <h1> <span>Alura</span>Geek</h1>
+            </div>
+            <div class="header__search">
+                <input class="search" type="search" name="Buscar" placeholder="Buscar">
+            </div>
+
+        </section>
+
+    </header>
+
+    <main>
+        <section class="main">
+            <form class="login">
+                <h1>Iniciar Sessão</h1>
+                <div class="form-outline mb-4">
+                    <input type="email" class="form-control" placeholder="Email" />
+                </div>
+
+                <!-- Password input -->
+                <div class="form-outline mb-4">
+                    <input type="password" class="form-control" placeholder="Senha" />
+                </div>
+
+                <!-- Submit button -->
+                <button type="button" class="btn btn-primary btn-block mb-4">Entrar</button>
+
+                <!-- Register buttons -->
+                <div class="text-center">
+                    <p>Não é um membro? <a class="link-cadastrar" href="#!">Registre-se</a></p>
+                    <p>ou entre com:</p>
+                    <button type="button" class="btn btn-link btn-floating mx-1">
+                        <i class="bi bi-facebook"></i>
+                    </button>
+
+                    <button type="button" class="btn btn-link btn-floating mx-1">
+                        <i class="bi bi-google"></i>
+                    </button>
+
+                    <button type="button" class="btn btn-link btn-floating mx-1">
+                        <i class="bi bi-twitter"></i>
+                    </button>
+
+                    <button type="button" class="btn btn-link btn-floating mx-1">
+                        <i class="bi bi-github"></i>
+                    </button>
+                </div>
+            </form>
+            <form class="form-cadastrar">
+                <h1>Cadastre-se</h1>
+                <div class="form-outline mb-4">
+                    <input type="email" class="form-control" placeholder="Digite seu Email" />
+                </div>
+
+                <!-- Password input -->
+                <div class="form-outline mb-4">
+                    <input type="password" class="form-control" placeholder="Crie uma senha" />
+                </div>
+                <div class="form-outline mb-4">
+                    <input type="password" class="form-control" placeholder="Repita sua senha" />
+                </div>
+                <!-- Submit button -->
+                <button type="button" class="btn btn-primary btn-block mb-4">Cadastrar</button>
+
+                <!-- Register buttons -->
+                <div class="text-center">
+                    <p>Já tenho uma conta. <a class="link-login" href="#!">Fazer login</a></p>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <section class="section__footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 left_section">
+                        <div class="footer__logo">
+                            <img src="./Images/control.svg" alt="Logo">
+                            <h2><span>Alura</span>Geek</h2>
+                        </div>
+                        <ul class="list-unstyle">
+                            <li>
+                                <a href="#">Quem somos nós</a>
+                            </li>
+                            <li>
+                                <a href="#">Politica de privacidade</a>
+                            </li>
+                            <li>
+                                <a href="#">Programa fidelidade</a>
+                            </li>
+                            <li>
+                                <a href="#">Nossas lojas</a>
+                            </li>
+                            <li>
+                                <a href="#">Quero ser franqueado</a>
+                            </li>
+                            <li>
+                                <a href="#">Anuncie aqui</a>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 right_section">
+                        <div>
+                            <h3 class="heading">Fale conosco</h3>
+
+                            <form class="form" action="https://formsubmit.co/jonathanvmelo@hotmail.com" method="POST">
+                                <div class="form-outline mb-4">
+                                    <input type="email" class="form-control" placeholder="Nome" />
+                                </div>
+
+                                <!-- Password input -->
+                                <div class="form-outline mb-4">
+                                    <textarea type="text" class="form-control"
+                                        placeholder="Escreva sua mensagem"></textarea>
+                                </div>
+
+                                <!-- Submit button -->
+                                <button type="button" class="btn btn-primary btn-block mb-4" type="submit"
+                                    value="Enviar mensagem">Eviar mensagem</button>
+
+
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </footer>
+
+    <section class="copyright">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="text-center">
+                    <a target="_blank" href="https://www.linkedin.com/in/jonathanvmelo/">
+                        <button type="button" class="btn btn-link btn-floating mx-1">
+                            <i class="bi bi-linkedin"></i>
+                        </button>
+                    </a>
+                    <a target="_blank" href="https://github.com/jonathanvmelo">
+                        <button type="button" class="btn btn-link btn-floating mx-1">
+                            <i class="bi bi-github"></i>
+                        </button>
+                    </a>
+                    <a target="_blank" href="https://www.instagram.com/jonathanvmelo/">
+                        <button type="button" class="btn btn-link btn-floating mx-1">
+                            <i class="bi bi-instagram"></i>
+                        </button>
+                    </a>
+                </div>
+                <h6><i class="bi bi-c-circle"></i>Todos os direitos reservados - Desenvolvido por Jonathan Volpato de
+                    Melo </h6>
+            </div>
+        </div>
+        <!-- Register buttons -->
+
+    </section>
+    <script src="./Js/login-js/login.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,36 @@
+/* MAIN SECTION */
+
+.main {
+    background-color: var(--bg-color-light-gray);
+    padding: 4rem 1rem;
+}
+
+.main .row{
+    justify-content: center;
+}
+
+.main h1 {
+    padding-bottom: .5rem;
+    font-size: 32px;
+    font-weight: 500;
+    text-align: left;
+}
+
+
+
+.main .register{
+    width: 559px;
+  
+}
+
+.main input{
+    height: 56px;
+    padding: 1.25rem .75rem 0 .75rem;
+}
+
+.main .register label{
+    position: relative;
+    top: -55px;
+    left: 10px;
+    font-size: 12px;
+}

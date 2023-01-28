@@ -1,0 +1,156 @@
+header {
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .header__logo {
+    gap: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+header .header__logo img {
+    width: 50px;
+}
+
+
+.header__logo h1 {
+    color: var(--text-color);
+    font-size: 32px;
+    margin: 0;
+}
+
+header .input input {
+    background: url(../../Images/search.svg) no-repeat right center;
+    width: 450px;
+    background-color: var(--bg-color-light-gray) !important;
+    /* background-position: calc(100% - 15px) calc(100% - 10px); */
+    /* background-size: 20px; */
+    padding: 5px 15px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+
+}
+
+
+
+header .header__btn_login button {
+    width: 182px;
+    height: 51px;
+    background: transparent;
+    border: 1px solid var(--accent-color);
+    color: var(--accent-color);
+    cursor: pointer;
+}
+
+
+header .header__btn_login button:hover {
+    background: var(--accent-color);
+    color: var(--bg-color-white);
+}
+
+
+@media (max-width: 1200px) {
+
+    .header__logo {
+        padding: 0;
+    }
+
+    .header__logo img {
+        width: 34px;
+    }
+
+    .header__logo span {
+        font-size: 26px;
+    }
+
+    .header__logo h1 {
+        color: var(--text-color);
+        font-size: 26px;
+    }
+
+    header .input input {
+        background-position-x: 270px;
+        width: 300px;
+        line-height: 1.8;
+        font-size: 14px;
+    }
+
+    header .header__btn_login button {
+        width: 130px;
+        line-height: 1.2;
+        font-size: 14px;
+    }
+
+
+}
+
+
+@media (max-width: 768px) {
+
+    header {
+        margin: 0;
+        padding: 1rem;
+    }
+
+    header .container {
+        padding: 0;
+    }
+
+    .header__logo {
+        display: flex;
+        gap: 5px;
+    }
+
+    header .order1 {
+        order: 2;
+    }
+
+    header .input input {
+        background-position: 10px;
+        background-size: 20px;
+        background-color: transparent !important;
+        width: 25px;
+        font-size: 12px;
+    }
+
+    header .input input:focus {
+        position: absolute;
+        top: 30px;
+        
+        /* background-image: none; */
+        width: 125px;
+        background-color: var(--bg-color-light-gray) !important;
+    }
+
+    header .header__logo img {
+        width: 24px;
+    }
+
+    header .header__logo span {
+        font-size: 18px;
+    }
+
+    header .header__logo h1 {
+        color: var(--text-color);
+        font-size: 18px;
+    }
+
+    header .header__btn_login button {
+        width: 95px;
+        font-size: 12px;
+    }
+
+
+}

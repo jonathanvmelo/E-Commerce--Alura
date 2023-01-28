@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    grid-template-areas:
+        "head head head head head head"
+        "banner banner banner banner banner banner"
+        "title1 title1 title1 title1 title1 title1"
+        "main main main main main main"
+        "main main main main main main"
+        "main main main main main main"
+        "foot  foot foot foot  foot foot";
+    grid-template-rows: 115px 352px 30px 350px 350px 4fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.container header {
+    grid-area: head;
+    background-color: #8ca0ff;
+}
+
+.container .banner {
+    grid-area: banner;
+    background-image: url("images/banner-image.png");
+    height: 352px;
+}
+
+.container .title-card {
+    grid-area: title1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 5rem;
+}
+
+.container main {
+    display: grid;
+    grid-area: main;
+    gap: 10px;
+    padding: 1rem 3rem;
+    grid-template-columns: repeat(auto-fit, 250px);
+    justify-items: stretch;
+    align-items: stretch;
+    align-self: stretch;
+
+}
+
+/* .container nav {
+    grid-area: nav;
+    background-color: #ffa08c;
+} */
+
+/* .container aside {
+    grid-area: aside;
+    background-color: #1f1dac;
+} */
+
+.container footer {
+    grid-area: foot;
+    background-color: #8cffa0;
+}

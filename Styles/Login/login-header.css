@@ -1,0 +1,128 @@
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 5rem;
+    width: 100vw;
+}
+
+.header__logo {
+    display: flex;
+    position: absolute;
+    left: 25px;
+    top: 28px;
+    gap: 2px;
+}
+
+.header__logo img {
+    width: 24px;
+    height: 24px;
+}
+
+.header__logo span {
+    color: #2A7AE4;
+    font-size: 18px;
+}
+
+.header__logo h1 {
+    color: var(--text-color);
+    font-size: 18px;
+}
+
+.header__search {
+    display: flex;
+}
+
+.header__search .search {
+    position: absolute;
+    right: 25px;
+    top: 15px;
+    width: 25px;
+    height: 2.0 5rem;
+    background: url(../../Images/search.svg) no-repeat;
+    background-position: calc(100% - 5px) calc(100% - 10px);
+    color: #2A7AE4;
+    background-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.header__search .search:focus {
+    width: 200px;
+    background-color: #F5F5F5;
+}
+
+
+
+@media (min-width: 768px) {
+
+    .header {
+        justify-content: flex-start;
+    }
+
+    .header__logo {
+        display: flex;
+        position: absolute;
+        left: 25px;
+        top: 20px;
+        gap: 5px;
+    }
+
+    .header__search .search {
+        width: 450px;
+        background-color: #F5F5F5;
+    }
+
+    .header__search .search:focus {
+        width: 450px;
+        background-color: #F5F5F5;
+    }
+
+    .header__logo img {
+        width: 34px;
+        height: 34px;
+    }
+
+    .header__logo span {
+        color: #2A7AE4;
+        font-size: 26px;
+    }
+
+    .header__logo h1 {
+        color: var(--text-color);
+        font-size: 26px;
+    }
+
+
+}
+
+@media (min-width: 1200px) {
+
+    .header__logo {
+        display: flex;
+        position: absolute;
+        left: 25px;
+        top: 15px;
+        gap: 5px;
+    }
+
+    .header__logo img {
+        width: 44px;
+        height: 44px;
+    }
+
+    .header__logo span {
+        color: #2A7AE4;
+        font-size: 36px;
+    }
+
+    .header__logo h1 {
+        color: var(--text-color);
+        font-size: 36px;
+    }
+
+
+}

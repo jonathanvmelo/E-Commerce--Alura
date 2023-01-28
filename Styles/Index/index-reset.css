@@ -1,0 +1,33 @@
+:root {
+    --bg-color-light-gray: #F5F5F5;
+    --bg-color-light-blue: #EAF2FD;
+    --dark-color: #464646;
+    --accent-color: #2A7AE4;
+    --white-color: #FFFFFF;
+    --bg-color-inputs: #F5F5F5;
+
+
+    --card-bg-color: #232432;
+    --error-color: #e02525;
+}
+
+* {
+    font-family: 'Raleway' sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a,
+span {
+    cursor: pointer;
+    text-decoration: none;
+    color: var(--accent-color);
+}
+
+ul,
+li {
+    list-style: none;
+}

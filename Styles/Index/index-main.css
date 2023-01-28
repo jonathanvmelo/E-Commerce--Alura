@@ -1,0 +1,74 @@
+.main {
+    padding: 1rem 10rem;
+}
+
+.main .title-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main .title-card a {
+    color: var(--accent-color);
+
+}
+
+.main .grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 15px;
+    margin-bottom: 3rem;
+}
+
+.main .row {
+    width: 100%;
+
+}
+
+.main .grid-container {}
+
+.main .grid-container .grid-card {
+    text-align: left;
+    justify-self: stretch;
+}
+
+.main .grid-container .card img {
+    width: 150px;
+    height: 150px;
+}
+
+
+.main .grid-container .card-title {
+    margin: 0;
+    line-height: 1.5rem;
+    font-weight: 500;
+}
+
+.main .grid-container .card-text {
+    margin: 0;
+    line-height: 1.5rem;
+
+}
+
+.main .grid-container a {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.grid-container div {
+    width: 250px;
+    gap: 1rem;
+}
+
+.produto {
+    width: 90%;
+}
+
+.produto img {
+    width: 200px;
+    height: 200px;
+}

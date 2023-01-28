@@ -1,0 +1,143 @@
+/* FOOTER SECTION */
+footer {}
+
+.section__footer {
+    background-color: var(--bg-color-light-blue);
+    padding: 6rem 0;
+
+}
+
+.section__footer .left_section {
+    display: flex;
+    gap: 5rem;
+    align-items: flex-start;
+    text-align: center;
+}
+
+.footer__logo {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    align-items: center;
+}
+
+.footer__logo img {
+    width: 54px;
+}
+
+.footer__logo span {
+    color: var(--accent-color);
+}
+
+.footer__logo h2 {
+    color: var(--text-color);
+    font-size: 35px;
+}
+
+.list-unstyle {
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.list-unstyle li {
+    gap: 18px;
+    text-align: left;
+    padding-bottom: .5rem;
+}
+
+.list-unstyle li a {
+
+    color: var(--text-color);
+}
+
+.section__footer .form {
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.section__footer .right_section h3 {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.section__footer .form input {
+    height: 46px;
+    padding: 10px;
+}
+
+.section__footer .form textarea {
+    height: 102px;
+    resize: none;
+}
+
+.section__footer .btn {
+    margin: 0;
+}
+
+.copyright {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 102px;
+    text-align: center;
+    padding: 0 1rem;
+}
+
+
+.copyright h6 {
+    text-align: center;
+    font-size: 11px;
+}
+
+
+@media (min-width: 768px) and (max-width: 1200px) {
+
+    .copyright .row {
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .section__footer .left_section {
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: left;
+        margin-bottom: 0rem;
+        gap: 1rem;
+    }
+
+    .list-unstyle li {
+        gap: 18px;
+        text-align: left;
+        padding-bottom: .7rem;
+    }
+}
+
+
+@media (max-width: 768px) {
+
+
+    .section__footer .left_section {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        text-align: center;
+        margin-bottom: 0;
+    }
+
+    .list-unstyle li a {
+        text-align: center;
+        padding-bottom: 1.4rem;
+        color: var(--text-color);
+    }
+
+    .section__footer .form {
+        gap: 15px;
+    }
+}

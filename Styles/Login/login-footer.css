@@ -1,0 +1,125 @@
+/* FOOTER SECTION */
+
+
+.section__footer {
+    background-color: var(--background-color-light-blue);
+    padding: 3.5rem 0 2rem 0;
+    width: 100vw;
+}
+
+.footer__logo {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+.section__footer .left_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.footer__logo img {
+    width: 40px;
+    height: 30px;
+}
+
+.footer__logo span {
+    color: #2A7AE4;
+    font-size: 25px;
+}
+
+.footer__logo h2 {
+    color: var(--text-color);
+    font-size: 25px;
+    padding-bottom: 1rem;
+}
+
+.list-unstyle {
+    padding: 0;
+}
+
+.list-unstyle li {
+    gap: 18px;
+    text-align: center;
+    padding-bottom: .5rem;
+}
+
+.section__footer .right_section h3 {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.section__footer .form input {
+    height: 46px;
+    padding: 10px;
+}
+
+.section__footer .form textarea {
+    height: 102px;
+    resize: none;
+}
+
+.copyright {
+    height: 4rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2rem;
+
+}
+
+.copyright .row {
+    align-items: center;
+    justify-content: center;
+}
+
+.copyright h6 {
+    text-align: center;
+    font-size: 11px;
+}
+
+.copyright a {
+    color: var(--accent-color);
+    font-size: 11px;
+}
+
+
+@media (min-width: 768px) {
+
+    .copyright .row {
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .section__footer .left_section {
+        align-items: flex-start;
+        text-align: left;
+        margin-bottom: 0rem;
+    }
+
+    .list-unstyle li {
+        gap: 18px;
+        text-align: left;
+        padding-bottom: .7rem;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    .section__footer .left_section {
+        flex-direction: row;
+        gap: 5rem;
+        text-align: left;
+        margin-bottom: 0;
+    }
+
+    .list-unstyle li {
+        text-align: left;
+        padding-bottom: 1.4rem;
+    }
+}

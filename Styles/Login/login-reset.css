@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Lacquer&family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;500;600;700;900&family=Rubik+Moonrocks&family=Ubuntu:wght@300;400;500;700&display=swap');
+
+
+:root {
+    --background-color-light-gray: #F5F5F5;
+    --background-color-light-blue: #EAF2FD;
+    --background-color-white: #FFFFFF;
+    --text-color: #464646;
+    --accent-color: #2A7AE4;
+
+    --bg-color-of-lists-in-skills-section: #81818180;
+    --bg-color-form-inputs: #c4c4c44a;
+    --card-bg-color: #232432;
+
+    --secundary-color: #bbbbbb;
+
+    --error-color: #e02525;
+}
+
+* {
+    font-family: 'Raleway' sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+ul,
+li {
+    list-style: none;
+}
